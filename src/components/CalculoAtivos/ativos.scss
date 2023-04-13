@@ -1,0 +1,36 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+  }
+  
+  thead th {
+    background-color: #444;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  tbody td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: right;
+  }
+  
+  td {
+    background-color: rgb(126, 121, 121);
+  }
